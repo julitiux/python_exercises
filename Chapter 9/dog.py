@@ -15,6 +15,15 @@ class Dog():
         print(self.name.title() + " roller over!")
 
 
-my_dog = Dog('willie',2)
+my_dog = Dog('baby drogon',2)
+your_dog = Dog('willie',6)
+
 print("My dog's name is " + my_dog.name.title() + ".")
 print("My dog is " + str(my_dog.age) + " years aold")
+my_dog.sit()
+my_dog.roll_over()
+
+print("My dog's name is " + your_dog.name.title() + ".")
+print("My dog is " + str(your_dog.age) + " years aold")
+your_dog.sit()
+your_dog.roll_over()
